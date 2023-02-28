@@ -6,8 +6,6 @@
  * @tree: the node
  *
  * @func: function to print
- *
- * Return: always 0
  */
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 {
